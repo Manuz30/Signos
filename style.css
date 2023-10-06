@@ -1,0 +1,1209 @@
+
+body 
+{ 
+margin: 0px; 
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+header 
+{
+    background-color: #512083;
+    display: flex;
+}
+
+#botao-hamburguer
+{
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 150px;
+    size: 50px;
+    font-size: 50px;
+}
+
+.Buscar
+{
+    display: none;
+}
+
+.entrar
+{
+
+    display: none;
+
+}
+
+
+h1
+{
+     font-family: jost;
+     margin: 20px;
+     font-size: 15px;
+     color:  #512083;
+}
+
+h2
+{
+    font-family: jost;
+    font-size: 10px;
+    color:  #512083;
+    margin: 30px;
+}
+
+.aries
+{
+    padding: 80px;
+}
+
+.aries h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.touro
+{
+    padding: 90px;
+}
+
+.touro h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.gemeos
+{
+    padding: 50px;
+}
+
+.gemeos h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.fila1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.virgem
+{
+    padding: 90px;
+}
+
+.virgem h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.cancer
+{
+    padding: 90px;
+}
+
+.cancer h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.leao
+{
+    padding: 90px;
+}
+
+.leao h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.fila2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.libra
+{
+    padding: 90px;
+}
+
+.libra h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.escorpiao
+{
+    padding: 90px;
+}
+
+.escorpiao h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.sargitario
+
+{
+    padding: 30px;
+}
+
+.sargitario h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.fila3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.capricornio
+{
+    padding: 70px;
+}
+
+.capricornio h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.aquario
+{
+    padding: 80px;
+}
+
+.aquario h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.peixe
+
+{
+    padding: 50px;
+}
+
+.peixe h2
+{
+    font-size: 40px;
+    color:  #512083;
+}
+
+
+.fila4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signos
+{
+    text-align: center;
+}
+
+
+/* SIGNO DE ÁRIES*/
+
+.dataaries
+{
+    display: flex;
+}
+.dataaries h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo1
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+
+}
+
+.signo1 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 40px;
+    padding: 30px;
+}
+
+.signo1 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+
+
+
+
+/* SIGNO DE TOURO*/
+
+.datatouro
+{
+    display: flex;
+}
+.datatouro h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo2
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo2 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo2 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+
+
+/* SIGNO DE GÊMEOS*/
+
+.datagemeos
+{
+    display: flex;
+}
+.datagemeos h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo3
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo3 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo3 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+
+/* SIGNO DE CÂNCER*/
+
+.datacancer
+{
+    display: flex;
+}
+.datacancer h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo4
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo4 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo4 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+
+
+/* SIGNO DE LEÃO*/
+
+.dataleao
+{
+    display: flex;
+}
+.dataleao h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo5
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo5 p
+{
+    color: white !important;
+    font-size: 10px;
+    font-family:jost !important;;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo5 h2
+
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+
+
+/* SIGNO DE VIRGEM*/
+
+.datavirgem
+{
+    display: flex;
+}
+.datavirgem h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo6
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo6 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo6 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+
+/* SIGNO DE LIBRA*/
+
+.datalibra
+{
+    display: flex;
+}
+.datalibra h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo7
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo7 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo7 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+/* SIGNO DE ESCORPIÃO*/
+
+.dataescorpiao
+{
+    display: flex;
+}
+.dataescorpiao h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo8
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo8 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo8 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+
+/* SIGNO DE SARGITARIO*/
+
+.datasargitario
+{
+    display: flex;
+}
+.datasargitario h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo9
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo9 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo9 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+/* SIGNO DE CAPRICORNIO*/
+
+.datacapricornio
+{
+    display: flex;
+}
+.datacapricornio h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo10
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo10 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo10 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+
+/* SIGNO DE ÁQUARIO*/
+
+.dataaquario
+{
+    display: flex;
+}
+.dataaquario h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo11
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo11 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo11 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+
+
+/* SIGNO DE PEIXE*/
+
+.datapeixe
+{
+    display: flex;
+}
+.datapeixe h2
+{
+   font-size: 40px;
+   margin: 15px;
+   color:  #512083;
+}
+
+.signo12
+{
+    background-color:  #512083;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+.signo12 p
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 30px;
+    padding: 20px;
+}
+
+.signo12 h2
+{
+    color: white;
+    font-size: 10px;
+    font-family: jost;
+    margin: 35px;
+}
+
+footer
+{
+   background-color: #512083;
+   text-align: center;
+
+}
+
+footer p
+{
+   color: white;
+   font-size: 5px;
+}
+
+.banner
+{
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    background-image: url(banner9.png);
+    background-repeat: no-repeat;
+}
+
+@media(min-width: 1280px)
+
+{
+
+    header
+    {
+        background-color: #512083;
+        display: flex;
+    }
+
+    header h1
+    {
+    color: white;
+    font-family: jost;
+    font-size: 40px;
+    }
+
+    .Buscar
+    {
+        position: relative;
+        display: flex;
+    }
+
+   .foto button
+   {
+     position: relative;  
+   }
+
+    .foto img 
+    {
+      
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    }
+
+    .entraaar
+    {
+        position: relative;
+        display: flex;
+        text-align: center;
+        font-family: jost;
+        font-size: 20px;
+    }
+
+    .entraaar
+    {
+        right: -400px; 
+        width: 70px;
+        height: 35px;
+        position: relative;
+        top: 50px;
+    }
+
+    .Buscar
+    {
+       right: -300px; 
+       width: 400px;
+       height: 30px;
+       position: relative;
+       top: 50px;
+    }
+
+
+    #botao-hamburguer
+    {
+        display: none;
+    }
+
+
+    .banner
+    {
+       width: 100%;   
+       height: 780px;
+       background-image: url("Banner.jpg");
+       background-repeat: no-repeat;
+    }
+
+
+    h1
+    {
+
+        font-family: jost;
+        margin: 40px;
+        font-size: 40px;
+        color:  #512083; 
+
+    }
+
+    h2
+    {
+        font-family: jost;
+        font-size: 30px;
+        color: black;
+        margin: 30px;
+
+    }
+
+    .fila1
+    {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        
+
+    }
+
+
+    .fila2
+    {
+        display: flex;
+        justify-content:space-between;
+    
+        align-items: center;
+    }
+
+    .fila3
+    {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+
+    .fila4
+    {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+
+    /* SIGNO DE ÁRIES*/
+
+    .signo1 p
+    {
+        color: white;
+        font-size: 25px;
+        font-family: jost;
+        margin-bottom: 30px;
+        position: relative;
+        top: -50px;
+    }
+    
+    .signo1 h2
+    {
+        color: white;
+        font-size: 25px;
+        font-family: jost;
+        padding: 2% 1%;
+    }
+
+/* SIGNO DE TOURO*/
+
+.signo2 p
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    margin-bottom: 30px;
+    position: relative;
+    top: -50px;
+}
+
+.signo2 h2
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    padding: 2% 1%;
+}
+
+    
+/* SIGNO DE GÊMEOS*/
+    
+.signo3 p
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    margin-bottom: 30px;
+    position: relative;
+    top: -50px;
+}
+
+.signo3 h2
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    padding: 2% 1%;
+}
+
+    
+  
+/* SIGNO DE CÂNCER*/
+
+.signo4 p
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    margin-bottom: 30px;
+    position: relative;
+    top: -50px;
+}
+
+.signo4 h2
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    padding: 2% 1%;
+}
+
+
+/* SIGNO DE LEÃO*/
+   
+.signo5 p
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    margin-bottom: 30px;
+    position: relative;
+    top: -50px;
+}
+
+.signo5 h2
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    padding: 2% 1%;
+}
+    
+/* SIGNO DE VIRGEM*/ 
+
+.signo6 p
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    margin-bottom: 30px;
+    position: relative;
+    top: -50px;
+}
+
+.signo6 h2
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    padding: 2% 1%;
+}
+/* SIGNO DE LIBRA*/ 
+    
+.signo7 p
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    margin-bottom: 30px;
+    position: relative;
+    top: -50px;
+}
+
+.signo7 h2
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    padding: 2% 1%;
+}
+
+   /* SIGNO DE ESCORPIÃO*/ 
+
+   .signo8 p
+   {
+       color: white;
+       font-size: 25px;
+       font-family: jost;
+       margin-bottom: 30px;
+       position: relative;
+       top: -50px;
+   }
+   
+   .signo8 h2
+   {
+       color: white;
+       font-size: 25px;
+       font-family: jost;
+       padding: 2% 1%;
+   }
+
+    /* SIGNO DE SARGITARIO*/ 
+
+    .signo9 p
+    {
+        color: white;
+        font-size: 25px;
+        font-family: jost;
+        margin-bottom: 30px;
+        position: relative;
+        top: -50px;
+    }
+    
+    .signo9 h2
+    {
+        color: white;
+        font-size: 25px;
+        font-family: jost;
+        padding: 2% 1%;
+    }
+
+    /* SIGNO DE CAPRICORNIO*/ 
+
+    .signo10 p
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    margin-bottom: 30px;
+    position: relative;
+    top: -50px;
+}
+
+   .signo10 h2
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    padding: 2% 1%;
+}
+    /* SIGNO DE ÁQUARIO*/ 
+
+    .signo11 p
+    {
+        color: white;
+        font-size: 25px;
+        font-family: jost;
+        margin-bottom: 30px;
+        position: relative;
+        top: -50px;
+    }
+    
+    .signo11 h2
+    {
+        color: white;
+        font-size: 25px;
+        font-family: jost;
+        padding: 2% 1%;
+    }
+    
+     /* SIGNO DE PEIXE*/ 
+
+    .signo12 p
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    margin-bottom: 30px;
+    position: relative;
+    top: -50px;
+}
+
+    .signo12 h2
+{
+    color: white;
+    font-size: 25px;
+    font-family: jost;
+    padding: 2% 1%;
+}
+
+    footer p
+{
+   color: white;
+   font-size: 14px;
+   font-family: jost;
+
+}
+
+   footer
+   {
+
+    padding: 15px;
+   }
+
+
+
+
+}
+
+
+.cartao
+{
+   display: flex;
+   justify-content: space-between;
+   border-radius: 10%;
+   margin: 80px;
+}
+
+.cartao p
+{
+    font-size: 15px;
+}
+
+.d-flex
+{
+    margin: 0 !important;
+}
+
+.my-4
+{
+    background-color: #EDEDED;
+    margin: 0 !important;
+    
+}
+
+.form-control
+{
+    width: 500px !important;
+    background-color: transparent !important;
+}
+
+.mb-4, .my-4 
+{
+    margin-bottom: 0 !important;
+}
+
+.form-control::placeholder
+{
+    color: white !important;
+}
+
+
+.login h2
+{
+  text-align: center;
+  font-family: jost;
+}
+
+.mb-3
+{
+    display: flex;
+   justify-content: center;
+}
+
+.caixinha
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 30px;
+    width: 800px;
+
+}
+
+.caixinha2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin: 200px;
+}
+
+.mb-3
+{
+    display: block;
+}
+
+.entrar
+{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 10px;
+    right: -650px;
+}
+
+.senha
+{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}    
+
+.alt-place::placeholder
+{
+    color:#CDCDCD !important;
+}
