@@ -837,8 +837,9 @@ footer p
     .fila4
     {
         display: flex;
-        justify-content:space-between;
-        align-items: center;
+        justify-content:space-around;
+        align-items: center!important;
+        align-content: center;
     }
 
 
