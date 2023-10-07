@@ -728,15 +728,16 @@ footer p
         display: flex;
         justify-content:space-between;
         align-items: center;
+        margin: 25px;
+        padding: 20px;
     }
-
-
     .fila2
     {
         display: flex;
         justify-content:space-between;
-    
         align-items: center;
+        margin: 10px;
+        padding: 20px;
     }
 
     .fila3
@@ -744,17 +745,19 @@ footer p
         display: flex;
         justify-content:space-between;
         align-items: center;
+        margin: 20px;
+        padding: 20px;
     }
 
 
     .fila4
     {
         display: flex;
-        justify-content:space-around;
+        justify-content:space-between;
         align-items: center!important;
-        align-content: center;
+     
+        padding: 20px;
     }
-
 
     /* SIGNO DE ÁRIES*/
 
@@ -1014,110 +1017,110 @@ footer p
 
 
 
+   .cartao
+   {
+      display: flex;
+      justify-content: space-between;
+      border-radius: 10%;
+      margin: 80px;
+   }
+   
+   .cartao p
+   {
+       font-size: 20px;
+       font-family: jost;
+   }
+   
+   .d-flex
+   {
+       margin: 0 !important;
+   }
+   
+   .my-4
+   {
+       background-color: #EDEDED;
+       margin: 0 !important;
+       
+   }
+   
+   .form-control
+   {
+       width: 500px !important;
+       background-color: transparent !important;
+   }
+   
+   .mb-4, .my-4 
+   {
+       margin-bottom: 0 !important;
+   }
+   
+   .form-control::placeholder
+   {
+       color: white !important;
+   }
+   
+   
+   .login h2
+   {
+     text-align: center;
+     font-family: jost;
+   }
+   
+   .mb-3
+   {
+       display: flex;
+      justify-content: center;
+   }
+   
+   .caixinha
+   {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       border: 1px solid gray;
+       border-radius: 5px;
+       padding: 30px;
+       width: 800px;
+   
+   }
+   
+   .caixinha2
+   {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin: 0 auto;
+       margin: 200px;
+   }
+   
+   .mb-3
+   {
+       display: block;
+   }
+   
+   .entrar
+   {
+       display: flex;
+       width: 100%;
+       position: relative;
+       top: 10px;
+       right: -650px;
+   }
+   
+   .senha
+   {
+       display: flex;
+       width: 100%;
+       justify-content: flex-start;
+       position: relative;
+       top: 20px;
+       left: 80px;
+   }    
+   
+   .alt-place::placeholder
+   {
+       color:#CDCDCD !important;
+   }
 
 }
 
-
-.cartao
-{
-   display: flex;
-   justify-content: space-between;
-   border-radius: 10%;
-   margin: 80px;
-}
-
-.cartao p
-{
-    font-size: 15px;
-}
-
-.d-flex
-{
-    margin: 0 !important;
-}
-
-.my-4
-{
-    background-color: #EDEDED;
-    margin: 0 !important;
-    
-}
-
-.form-control
-{
-    width: 500px !important;
-    background-color: transparent !important;
-}
-
-.mb-4, .my-4 
-{
-    margin-bottom: 0 !important;
-}
-
-.form-control::placeholder
-{
-    color: white !important;
-}
-
-
-.login h2
-{
-  text-align: center;
-  font-family: jost;
-}
-
-.mb-3
-{
-    display: flex;
-   justify-content: center;
-}
-
-.caixinha
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 30px;
-    width: 800px;
-
-}
-
-.caixinha2
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    margin: 200px;
-}
-
-.mb-3
-{
-    display: block;
-}
-
-.entrar
-{
-    display: flex;
-    width: 100%;
-    position: relative;
-    top: 10px;
-    right: -650px;
-}
-
-.senha
-{
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    position: relative;
-    top: 20px;
-    left: 80px;
-}    
-
-.alt-place::placeholder
-{
-    color:#CDCDCD !important;
-}
